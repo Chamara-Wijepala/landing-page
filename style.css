@@ -37,7 +37,7 @@ html {
   --page-width: 75vw;
   --primary: #1F2937;
   --secondary: #E5E7EB;
-  --tertiary: #3772F6;
+  --tertiary: #3882F6;
 }
 
 body {
@@ -74,4 +74,24 @@ header nav {
 .nav-link {
   color: var(--secondary);
   text-decoration: none;
+}
+
+/* Hero */
+#hero-main-text {
+  font-size: 3rem;
+}
+
+#hero-subtext {
+  color: var(--secondary);
+}
+
+#sign-up-button {
+  padding: 0.5rem;
+  width: 7rem;
+  color: white;
+  background-color: var(--tertiary);
+  border: none;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+  font-weight: bold;
 }
