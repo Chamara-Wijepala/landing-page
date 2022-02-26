@@ -69,6 +69,10 @@ header,
 }
 
 /* Header */
+#header-content {
+  padding-block: 1rem;
+}
+
 #header-content h1 {
   font-weight: bold;
 }
@@ -117,6 +121,7 @@ header nav {
 /* Features */
 #feature-content {
   flex-direction: column;
+  gap: 2rem;
 }
 
 #features {
@@ -130,7 +135,7 @@ header nav {
 
 .feature img {
   height: 8rem;
-  width: auto;
+  width: 8rem;
   border: 3px solid var(--tertiary);
   border-radius: 8px;
 }
