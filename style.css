@@ -77,6 +77,10 @@ header nav {
 }
 
 /* Hero */
+#hero {
+  padding-block: 5rem;
+}
+
 #hero-main-text {
   font-size: 3rem;
 }
