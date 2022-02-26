@@ -5,6 +5,11 @@ html {
   box-sizing: inherit;
 }
 
+* {
+  padding: 0;
+  margin: 0;
+}
+
 @font-face {
   font-family: 'roboto';
   src:
@@ -38,11 +43,6 @@ html {
   --primary: #1F2937;
   --secondary: #E5E7EB;
   --tertiary: #3882F6;
-}
-
-body {
-  padding: 0;
-  margin: 0;
 }
 
 /* General */
@@ -85,6 +85,10 @@ header nav {
 }
 
 /* Hero */
+#hero-content {
+  gap: 2rem;
+}
+
 #hero-main-text {
   font-size: 3rem;
 }
@@ -95,6 +99,7 @@ header nav {
 
 #sign-up-button {
   padding: 0.5rem;
+  margin-block: 0.5rem;
   width: 7rem;
   color: white;
   background-color: var(--tertiary);
@@ -102,6 +107,11 @@ header nav {
   border-radius: 0.5rem;
   font-size: 1rem;
   font-weight: bold;
+}
+
+#hero-image-container img {
+  width: 100%;
+  height: auto;
 }
 
 /* Features */
@@ -128,7 +138,6 @@ header nav {
 /* Quote */
 #quote-section {
   background-color: var(--secondary);
-  padding-block: 20%;
 }
 
 #quote-content {
