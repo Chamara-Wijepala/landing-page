@@ -45,19 +45,22 @@ body {
   margin: 0;
 }
 
+/* General */
 header,
 #hero {
   color: white;
   background-color: var(--primary);
 }
 
-#header-content {
+#header-content,
+#hero-content {
   width: var(--page-width);
   margin: auto;
   display: flex;
   align-items: center;
 }
 
+/* Header */
 #header-content h1 {
   font-weight: bold;
 }
@@ -68,7 +71,7 @@ header nav {
   gap: 1.5rem;
 }
 
-header nav a {
-  color: inherit;
+.nav-link {
+  color: var(--secondary);
   text-decoration: none;
 }
