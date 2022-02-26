@@ -90,7 +90,7 @@ header nav {
 
 /* Hero */
 #hero-content {
-  gap: 2rem;
+  gap: 3rem;
 }
 
 #hero-main-text {
@@ -118,6 +118,12 @@ header nav {
   height: auto;
 }
 
+@media (max-width: 860px) {
+  #hero-content {
+    flex-wrap: wrap;
+  }
+}
+
 /* Features */
 #feature-content {
   flex-direction: column;
@@ -126,6 +132,8 @@ header nav {
 
 #features {
   display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
   gap: 3rem;
 }
 
