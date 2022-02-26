@@ -47,13 +47,21 @@ body {
 
 /* General */
 header,
-#hero {
+#hero-section {
   color: white;
   background-color: var(--primary);
 }
 
+#hero-section,
+#feature-section,
+#quote-section {
+  padding-block: 6rem;
+}
+
 #header-content,
-#hero-content {
+#hero-content,
+#feature-content,
+#quote-content {
   width: var(--page-width);
   margin: auto;
   display: flex;
@@ -77,10 +85,6 @@ header nav {
 }
 
 /* Hero */
-#hero {
-  padding-block: 5rem;
-}
-
 #hero-main-text {
   font-size: 3rem;
 }
@@ -97,5 +101,48 @@ header nav {
   border: none;
   border-radius: 0.5rem;
   font-size: 1rem;
+  font-weight: bold;
+}
+
+/* Features */
+#feature-content {
+  flex-direction: column;
+}
+
+#features {
+  display: flex;
+  gap: 3rem;
+}
+
+.feature {
+  width: 8rem;
+}
+
+.feature img {
+  height: 8rem;
+  width: auto;
+  border: 3px solid var(--tertiary);
+  border-radius: 8px;
+}
+
+/* Quote */
+#quote-section {
+  background-color: var(--secondary);
+  padding-block: 20%;
+}
+
+#quote-content {
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+#quote {
+  font-size: 2rem;
+  font-style: italic;
+}
+
+#quote-from {
+  align-self: flex-end;
+  font-size: 1.2rem;
   font-weight: bold;
 }
