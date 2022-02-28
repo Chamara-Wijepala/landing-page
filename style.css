@@ -190,6 +190,25 @@ header nav {
   border: 2px solid var(--secondary);
 }
 
+/* Footer */
+footer {
+  background-color: var(--primary);
+  color: var(--secondary);
+  display: flex;
+  justify-content: center;
+  padding-block: 2.5rem;
+}
+
+#copyright a {
+  text-decoration: none;
+  color: var(--secondary);
+  cursor: pointer;
+}
+
+#copyright a:hover {
+  color: white;
+}
+
 /* Media queries */
 @media (max-width: 860px) {
   #header-content,
