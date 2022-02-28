@@ -91,6 +91,11 @@ header,
   color: var(--tertiary);
 }
 
+nav a:hover,
+#copyright a:hover {
+  color: white;
+}
+
 /* Header */
 #header-content {
   padding-block: 1rem;
@@ -98,6 +103,11 @@ header,
 
 #header-content h1 {
   font-weight: bold;
+}
+
+#header-content h1 a {
+  text-decoration: none;
+  color: white;
 }
 
 header nav {
@@ -212,10 +222,6 @@ footer {
   text-decoration: none;
   color: var(--secondary);
   cursor: pointer;
-}
-
-#copyright a:hover {
-  color: white;
 }
 
 /* Media queries */
