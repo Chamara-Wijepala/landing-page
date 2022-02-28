@@ -2,6 +2,8 @@
 
 > ## From [The Odin Project](https://www.theodinproject.com/paths/foundations/courses/foundations/lessons/landing-page)
 
+> - [Live Demo](https://chamara-wijepala.github.io/landing-page/)
+
 # Introduction
 
 A landing page for a website.
