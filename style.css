@@ -80,6 +80,15 @@ header,
   border-radius: 0.5rem;
   font-size: 1rem;
   font-weight: bold;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+#hero-signup-button:hover,
+#signup-section-button:hover {
+  background-color: white;
+  border-color: white;
+  color: var(--tertiary);
 }
 
 /* Header */
