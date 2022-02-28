@@ -1,5 +1,6 @@
 html {
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 *, *::before, *::after {
   box-sizing: inherit;
@@ -46,6 +47,11 @@ html {
 }
 
 /* General */
+header {
+  position: sticky;
+  top: 0;
+}
+
 header,
 #hero-section {
   color: white;
